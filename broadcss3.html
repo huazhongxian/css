@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>Document</title>
+    <style>
+        .div1
+        {
+            text-align:center;
+            border:2px solid #a1a1a1;
+            padding:10px 40px;
+            background:#dddddd;
+            width:350px;
+            border-radius:25px;
+            -moz-border-radius:25px; /* 老的 Firefox */
+        }
+        .div2
+        {
+            width:300px;
+            height:100px;
+            background-color:#ff9900;
+            -moz-box-shadow: 10px 10px 5px #888888; /* 老的 Firefox */
+            box-shadow: 10px 10px 5px #888888;
+        }
+
+
+        .div3
+        {
+            border:15px solid transparent;
+            width:300px;
+            padding:10px 20px;
+        }
+
+        #round
+        {
+            -moz-border-image:url(http://www.w3school.com.cn/i/border.png) 30 30 round;	/* Old Firefox */
+            -webkit-border-image:url(http://www.w3school.com.cn/i/border.png) 30 30 round;	/* Safari and Chrome */
+            -o-border-image:url(http://www.w3school.com.cn/i/border.png) 30 30 round;		/* Opera */
+            border-image:url(http://www.w3school.com.cn/i/border.png) 30 30 round;
+        }
+
+        #stretch
+        {
+            -moz-border-image:url(http://www.w3school.com.cn/i/border.png) 30 30 stretch;	/* Old Firefox */
+            -webkit-border-image:url(http://www.w3school.com.cn/i/border.png) 30 30 stretch;	/* Safari and Chrome */
+            -o-border-image:url(http://www.w3school.com.cn/i/border.png) 30 30 stretch;	/* Opera */
+            border-image:url(http://www.w3school.com.cn/i/border.png) 30 30 stretch;
+        }
+    </style>
+</head>
+<body>
+<br>
+<div class="div1">border-radius 属性允许您向元素添加圆角。</div>
+<br><br>
+   <div class="div2">box-shadow 用于向方框添加阴影</div>
+<br><br>
+<div class="div3" id="round">在这里，图片铺满整个边框。</div>
+<br>
+<div  class="div3" id="stretch">在这里，图片被拉伸以填充该区域。</div>
+
+<p>这是我们使用的图片：</p>
+<img src="http://www.w3school.com.cn/i/border.png">
+
+<p><b>注释：</b> Internet Explorer 不支持 border-image 属性。</p>
+<p>border-image 属性规定了用作边框的图片。</p>
+</body>
+</html>
