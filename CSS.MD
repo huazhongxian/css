@@ -656,7 +656,7 @@ border-left-width: 0;
 
 ![设定宽度、内边距、外边距、边框的样式](https://user-gold-cdn.xitu.io/2017/7/22/38ef6c51b6a8cc10bf946cc4d6abb46b?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
-设定宽度、内边距、外边距、边框的样式
+设定宽度、内边距、外边距、边框的样式1
 
 可以看到，这时总宽度达到了512像素（30+6+20+400+20+6+30=512）
 
